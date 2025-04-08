@@ -44,5 +44,5 @@ def processFiles(directory):
 
 allClauses = processFiles(wikiRoot)
 for clause, count in allClauses.items():
-    if (count > 1):
+    if (count > 2):
         print(clause)
